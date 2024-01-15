@@ -1,4 +1,4 @@
-# LibraDB
+#ArachneDB
 
 [![made-with-Go](https://github.com/go-critic/go-critic/workflows/Go/badge.svg)](http://golang.org)
 [![made-with-Go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](http://golang.org)
@@ -6,7 +6,7 @@
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
 [![amit-davidson](https://circleci.com/gh/amit-davidson/LibraDB.svg?style=svg)](https://app.circleci.com/pipelines/github/amit-davidson/LibraDB)
 
-LibraDB is a simple, persistent key/value store written in pure Go. The project aims to provide a working yet simple
+ArachneDB is a simple, persistent key/value store written in pure Go. The project aims to provide a working yet simple
 example of a working database. If you're interested in databases, I encourage you to start here.
 
 This database accompanies  my [blog post](https://betterprogramming.pub/build-a-nosql-database-from-the-scratch-in-1000-lines-of-code-8ed1c15ed924) on how to write a database from scratch.
