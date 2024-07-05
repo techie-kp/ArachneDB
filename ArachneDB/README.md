@@ -4,7 +4,7 @@
 [![made-with-Go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](http://golang.org)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![amit-davidson](https://circleci.com/gh/amit-davidson/LibraDB.svg?style=svg)](https://app.circleci.com/pipelines/github/amit-davidson/LibraDB)
+[![amit-davidson](https://circleci.com/gh/amit-davidson/ArachneDB.svg?style=svg)](https://app.circleci.com/pipelines/github/amit-davidson/ArachneDB)
 
 ArachneDB is a simple, persistent key/value store written in pure Go. The project aims to provide a working yet simple
 example of a working database. If you're interested in databases, I encourage you to start here.
@@ -13,21 +13,21 @@ This database accompanies  my [blog post](https://betterprogramming.pub/build-a-
 
 ## Installing
 
-To start using LibraDB, install Go and run `go get`:
+To start using ArachneDB, install Go and run `go get`:
 
 ```sh
-go get -u github.com/amit-davidson/LibraDB
+go get -u github.com/amit-davidson/ArachneDB
 ```
 
 ## Basic usage
 ```go
 package main
 
-import "github.com/amit-davidson/LibraDB"
+import "github.com/amit-davidson/ArachneDB"
 
 func main() {
 	path := "libra.db"
-	db, _ := LibraDB.Open(path, LibraDB.DefaultOptions)
+	db, _ := ArachneDB.Open(path, ArachneDB.DefaultOptions)
 
 	tx := db.WriteTx()
 	name := []byte("test")
@@ -40,10 +40,10 @@ func main() {
 }
 ```
 ## Transactions
-Read-only and read-write transactions are supported. LibraDB allows multiple read transactions or one read-write 
+Read-only and read-write transactions are supported. ArachneDB allows multiple read transactions or one read-write 
 transaction at the same time. Transactions are goroutine-safe.
 
-LibraDB has an isolation level: [Serializable](https://en.wikipedia.org/wiki/Isolation_(database_systems)#Serializable).
+ArachneDB has an isolation level: [Serializable](https://en.wikipedia.org/wiki/Isolation_(database_systems)#Serializable).
 In simpler words, transactions are executed one after another and not at the same time.This is the highest isolation level.
 
 ### Read-write transactions
