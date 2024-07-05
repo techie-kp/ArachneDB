@@ -4,7 +4,7 @@
 [![made-with-Go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](http://golang.org)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![amit-davidson](https://circleci.com/gh/amit-davidson/ArachneDB.svg?style=svg)](https://app.circleci.com/pipelines/github/amit-davidson/ArachneDB)
+[![Khush Patel](https://circleci.com/gh/amit-davidson/ArachneDB.svg?style=svg)](https://app.circleci.com/pipelines/github/amit-davidson/ArachneDB)
 
 ArachneDB is a simple, persistent key/value store written in pure Go. The project aims to provide a working yet simple
 example of a working database. If you're interested in databases, I encourage you to start here.
