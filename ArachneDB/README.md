@@ -4,7 +4,6 @@
 [![made-with-Go](https://img.shields.io/badge/Made%20with-Go-1f425f.svg)](http://golang.org)
 [![MIT license](https://img.shields.io/badge/License-MIT-blue.svg)](https://lbesson.mit-license.org/)
 [![PRs Welcome](https://img.shields.io/badge/PRs-welcome-brightgreen.svg?style=flat-square)](http://makeapullrequest.com)
-[![Khush Patel](https://circleci.com/gh/amit-davidson/ArachneDB.svg?style=svg)](https://app.circleci.com/pipelines/github/amit-davidson/ArachneDB)
 
 ArachneDB is a simple, persistent key/value store written in pure Go. The project aims to provide a working yet simple
 example of a working database. If you're interested in databases, I encourage you to start here.
@@ -16,14 +15,14 @@ This database accompanies  my [blog post](https://betterprogramming.pub/build-a-
 To start using ArachneDB, install Go and run `go get`:
 
 ```sh
-go get -u github.com/amit-davidson/ArachneDB
+go get -u github.com/techie-kp/ArachneDB
 ```
 
 ## Basic usage
 ```go
 package main
 
-import "github.com/amit-davidson/ArachneDB"
+import "github.com/techie-kp/ArachneDB"
 
 func main() {
 	path := "libra.db"
